@@ -9,11 +9,15 @@ body{
 }
 
 .navColor{
-	background-color: #2d201b;
+	background-color: #272530;
 }
 
 .bodyColor{
 	background-color: #d9b9a1;
+}
+
+.altBodyColor{
+	background-color: #8a453b;
 }
 
 .footerColor{
@@ -21,24 +25,74 @@ body{
 }
 
 .windowColor{
-	background-color: #303a4e;
+	background-color: #584d42;
 }
 
 .background{
-	min-height: 30rem;
 	background-image: url(./images/webDevBG.jpg);
 	background-repeat: no-repeat;
 	background-size: 100%;
-	background-position: center;
+	background-position: top;
 	background-attachment: scroll;
 }
 
 .front-bg{
 	background-color: rgba(0, 0, 0, 0.25);
-	min-height: 30rem;
+	min-height: 40rem;
 	color: white;
 }
 
 .fontColor{
 	color: #d9b9a1;
+}
+
+.fontColor2{
+	color: #584d42;
+}
+
+.fontColor3{
+	color: #303a4e;
+}
+
+.fontSize{
+	font-size: 26px;
+}
+
+.fontStyle{
+	font-style: italic;
+}
+
+.descend p{
+	display: inline;
+}
+
+.form-control::placeholder{
+            color: #d9b9a1;
+}
+
+select option{
+	color: #d9b9a1;
+	opacity: 0.5;
+}
+
+select{
+	color: #512720;
+}
+
+.listStyleType{
+	list-style-type: none;
+}
+
+a{
+	color: inherit;
+	text-decoration: none;
+}
+
+.hireMeButton{
+	border: none;
+	border-radius: 20px;
+}
+
+a:hover{
+	color: #512720;
 }
