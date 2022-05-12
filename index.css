@@ -34,6 +34,7 @@ body{
 	background-size: 100%;
 	background-position: top;
 	background-attachment: scroll;
+	min-height: 40rem;
 }
 
 .front-bg{
