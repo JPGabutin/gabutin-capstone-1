@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.navColor{
+	background-color: #2d201b;
+}
+
+.bodyColor{
+	background-color: #d9b9a1;
+}
+
+.footerColor{
+	background-color: #512720;
+}
+
+.windowColor{
+	background-color: #303a4e;
+}
+
+.background{
+	min-height: 30rem;
+	background-image: url(./images/webDevBG.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	background-attachment: scroll;
+}
+
+.front-bg{
+	background-color: rgba(0, 0, 0, 0.25);
+	min-height: 30rem;
+	color: white;
+}
+
+.fontColor{
+	color: #d9b9a1;
+}
